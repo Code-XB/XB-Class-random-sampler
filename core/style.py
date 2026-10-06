@@ -1,4 +1,4 @@
-import os
+﻿import os
 
 _ICONS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "icons")
 _ICON_UP = _ICONS_DIR.replace("\\", "/") + "/up.svg"

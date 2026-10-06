@@ -1,4 +1,4 @@
-import random
+﻿import random
 import re
 from pypinyin import lazy_pinyin
 

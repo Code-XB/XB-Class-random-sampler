@@ -1,4 +1,4 @@
-import sys
+﻿import sys
 from PySide6.QtWidgets import QApplication
 from core.ui import MainWindow
 from core.config import migrate_legacy
