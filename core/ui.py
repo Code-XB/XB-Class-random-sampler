@@ -1,4 +1,4 @@
-﻿import random
+﻿﻿import random
 import os
 from PySide6.QtWidgets import (
     QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QLabel,
@@ -170,7 +170,7 @@ class MainWindow(QMainWindow):
                         return text
         except Exception:
             pass
-        return "v3.0.0  |  © 2026 张程翔 @虾饼科技"
+        return "v3.1.1  |  © 2026 CodeXB"
 
     def _refresh_config_display(self):
         self.config_label_value.setText(self.current_config_name)
